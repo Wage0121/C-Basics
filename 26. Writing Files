@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+
+    FILE * fpointer = fopen("employees.text", "w"); //r is read and a is append
+
+    fprintf(fpointer, "Jim, Salesman\nPam, Receptionist\nOscar, Accounting");
+
+
+    fclose(fpointer)
+
+    return 0;
+}
