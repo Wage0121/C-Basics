@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int age = 40;    //basic data types
+    double gpa = 3.6;
+    char grade = "A";  //only store one character
+    char phrase[] = "Giraffe Accademy"; //string things together / array cant modify arrays
+
+    return 0;
+}
