@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+double cube(double num){
+
+    return num * num * num //breaks us out of the function
+    //anything below this will not be used
+}
+
+int main ()
+{
+
+    printf("answer:  %f", cube(3.0));
+
+    return 0;
+
+}
+
