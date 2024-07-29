@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    int index = 1; //starting point
+    while(index<= 5){   //condition to be met
+        printf("%d\n", index);
+        index++; //this adds 1 each time i.e. increments
+
+    }
+
+    return 0;
+}
