@@ -1,0 +1,24 @@
+// A struct in C is a user-defined data type that allows you to group different types of variables together under a single name. 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct student{ //this could be linked to phones or books etc.
+    char name [50];
+    char major[50];
+    int age;
+    double gpa;
+};
+
+int main() {
+
+    struct student student1; //container called student 1 which will store the above. Assigns information below to student 1
+    student1.age = 22;
+    student1.gpa= 3.2;
+    strcpy( student1.name, "Jim");
+    strcpy( student1.major, "Business");
+
+    printf("%f", student1.gpa);
+
+    return 0;
+}
