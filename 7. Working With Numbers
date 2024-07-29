@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>  // Include the math library for pow, sqrt, etc.
+
+void working with numbers()
+{
+    printf("%f\n", 8.9);                // %f for float
+    printf("%f\n", 5.0 + 4.5);          // Addition
+    printf("%f\n", 5.0 - 4.5);          // Subtraction
+    printf("%f\n", 5.0 / 4.5);          // Division
+
+    printf("%f\n", pow(2, 3));          // Power
+    printf("%f\n", sqrt(9));            // Square root
+    printf("%f\n", ceil(2.3));          // Round up
+    printf("%f\n", floor(2.7));         // Round down
+}
