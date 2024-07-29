@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void printf()
+{
+    int favNum = 90;
+    printf("My favourite %s is %d\n", "number", favNum); // %d for integer
+}
