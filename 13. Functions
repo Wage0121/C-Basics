@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+
+    sayHi(); //calls function
+    return 0;
+
+}
+
+void sayHi(){       //this is a function
+    printf("Hello User");
+
+}
+
+//Functions 2
+
+double cube(double num){
+    double result = num * num * num;
+    return result; //exits
+}
+
+int main ()
+{
+
+    printf("answer:  %f", cube(3.0));
+
+    return 0;
+
+}
+
