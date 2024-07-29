@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char grade = 'A';  // Use single quotes for char literals
+
+    switch(grade) {
+        case 'A':
+            printf("You did Great!\n");
+            break;
+        case 'B':
+            printf("You did really good!\n");
+            break;
+        case 'C':
+            printf("You did good!\n");
+            break;
+        case 'D':
+            printf("You did alright!\n");
+            break;
+        case 'F':  // Corrected the duplicate 'D' case and added 'F' case for failure
+            printf("You Failed!\n");
+            break;
+        default:
+            printf("Invalid grade\n");
+    }
+
+    return 0;
+}
