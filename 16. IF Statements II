@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int max(int num1, int num2, int num3){
+    int result;
+
+    if(num1 >= num2 && num1 >= num3){ //&& means both needs to be true
+        result = num1;
+    } else if (num2 >= num1 && num2 >= num3){
+        result = num2;
+    } else {
+       result = num3;
+
+    }
+
+        return result;
+}
+
+int main (){
+
+    printf("%d", max(1,2,3));
+
+    //if(3>2 || 2>5) || is or
+    // printf("true");
+
+    //< Less then
+    //< More then
+    // == is equal to
+    // != not equal to
+    // (!(3>2)) The explaination mark before brackets negate code and does the opposite.
+
+
+    return 0;
+}
+
+
+
