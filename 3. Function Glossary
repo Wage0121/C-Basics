@@ -1,0 +1,12 @@
+%d or %i: Signed decimal integer.
+%u: Unsigned decimal integer.
+%f: Floating-point number.
+%lf: Double precision floating-point number.
+%c: Single character.
+%s: String (character array).
+%x or %X: Unsigned hexadecimal integer (lowercase or uppercase).
+%o: Unsigned octal integer.
+%p: Pointer address (memory address).
+%e or %E: Floating-point number in scientific notation (lowercase or uppercase).
+%g or %G: Use the shortest representation: %f or %e.
+
