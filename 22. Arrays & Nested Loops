@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // Declare and initialize a 3x2 2D array
+    int nums[3][2] = {
+        {1, 2},
+        {3, 4},
+        {5, 6}
+    };
+
+    // Print a specific element from the 2D array
+    printf("Element at nums[1][1]: %d\n", nums[1][1]);
+    // nums[1][1] refers to the element in the second row and second column (4 in this case)
+
+    // Declare loop variables
+    int i, j;
+
+    // Iterate over the 2D array and print all elements
+    printf("All elements in the 2D array:\n");
+    for(i = 0; i < 3; i++) {  // Outer loop for each row
+        for(j = 0; j < 2; j++) {  // Inner loop for each column in the current row
+            // Print the current element followed by a space
+            printf("%d ", nums[i][j]);
+        }
+        // Print a newline after each row to format the output
+        printf("\n");
+    }
+
+    // End of the program
+    return 0;
+}
