@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+    int age = 30; // Declare an integer variable and initialize it to 30
+    int *pAge = &age; // Declare a pointer to an integer and assign it the address of age
+
+    printf("%d\n", *&age); // *&age dereferences the address of age, effectively just giving the value of age, which is 30
+    printf("%d\n", *pAge); // Dereferencing the pointer pAge gives the value of age, which is also 30
+
+    return 0;
+}
