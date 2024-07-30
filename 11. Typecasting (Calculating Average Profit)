@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    float avgProfit;  //this is what outcome we want
+    int priceOfWatermelon = 7; //cost of watermellon
+    int sales = 59; //sales made
+    int daysWorked = 7; //number of days
+
+    avgProfit = (float)priceOfWatermelon * sales / daysWorked;
+    printf("Average daily profit: $%.2f\n", avgProfit);
+
+    return 0;
+}
