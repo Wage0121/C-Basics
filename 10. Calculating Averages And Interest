@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    float age1 = 4.0, age2 = 4.0, age3, average;
+
+    printf("Enter your age: ");
+    scanf("%f", &age3);
+
+    average = (age1 + age2 + age3) / 3;
+    printf("\nThe average age of the group is %f\n", average);
+
+
+
+    // Additional code for Calculating Interest
+    
+    float balance = 1000.00;
+    balance *= 1.1;
+    printf("Balance: %f\n", balance);
+
+    return 0;
+}
