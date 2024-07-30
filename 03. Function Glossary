@@ -1,3 +1,8 @@
+//This is to add commments on one line
+/* This is to add comments
+   on multiple lines */
+
+
 %d or %i: Signed decimal integer.
 %u: Unsigned decimal integer.
 %f: Floating-point number.
