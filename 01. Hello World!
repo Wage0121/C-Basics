@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "data.h" // this links the file to another file i.e. data.h to import data to that and then make replacements etc.
+#define MYNAME "Wajid Qureshi" // Anytime you have MYNAME in the coding, it will be replaced by Wajid Qureshi
 
 int main() {
     printf("Hello, World!\n");
