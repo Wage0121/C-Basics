@@ -3,12 +3,12 @@
    on multiple lines */
 
 
-%d or %i: Signed decimal integer.
+%d or %i: Signed decimal integer.                                             printf("i ate %d pizza slices\n","9") //this uses whole numbers
 %u: Unsigned decimal integer.
-%f: Floating-point number.
+%f: Floating-point number.                                                     printf("pi is equal to %f,"3.142") //this uses decimal numbers numbers, if you want %.2f for 2 decimal places
 %lf: Double precision floating-point number.
 %c: Single character.
-%s: String (character array).
+%s: String (character array).                                                 printf("%s is the best person ever\n", "Waj") // The name in quotes replaces the %s  This also works in order via indexes.
 %x or %X: Unsigned hexadecimal integer (lowercase or uppercase).
 %o: Unsigned octal integer.
 %p: Pointer address (memory address).
