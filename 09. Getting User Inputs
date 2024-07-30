@@ -1,12 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main ()
-{
-    char grade;
-    printf("Enter your grade: ");
-    scanf("%c", &grade);
-    printf("Your grade is %c", grade);
+int main() {
+    char firstname[20];
+    char crush[20];
+    int number_of_babies;
+
+    // Asking for user input
+    printf("What is your name? ");
+    scanf("%s", firstname);
+
+    printf("What is your crush's name? ");
+    scanf("%s", crush);
+
+    printf("How many babies do you want? ");
+    scanf("%d", &number_of_babies);
+
+    // Printing the results
+    printf("%s and %s will have %d babies.\n", firstname, crush, number_of_babies);
 
     return 0;
 }
