@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+    int age;
+    age = 31;
+    printf("Waj is %d years old\n", "age");
+
+    return 0
+}
+
 void variables()
 {
     char characterName[] = "John";
