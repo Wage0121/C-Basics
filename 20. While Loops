@@ -2,13 +2,28 @@
 #include <stdlib.h>
 
 int main() {
+    int number;
+    int index = 1; // Starting point for the while loop
 
-    int index = 1; //starting point
-    while(index<= 5){   //condition to be met
+    // Example of a while loop
+    while (index <= 5) { // Condition to be met
         printf("%d\n", index);
-        index++; //this adds 1 each time i.e. increments
-
+        index++; // Increment
     }
+
+                                                                    // Example of a do-while loop
+    do {
+        printf("Enter a number (0 to exit): ");
+        scanf("%d", &number);
+
+        // Using the ternary operator for a simple if-else
+        const char *result = (number > 0) ? "The number is positive." 
+                          : (number < 0) ? "The number is negative." 
+                          : "The number is zero.";
+
+        printf("%s\n", result);
+
+    } while (number != 0); // Loop condition
 
     return 0;
 }
