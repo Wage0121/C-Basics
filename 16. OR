@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char answer;
+
+    printf("Do you like bagels? (y/n) \n");
+    scanf(" %c", &answer);
+
+    // Corrected character comparison and added semicolons to printf
+    if ((answer == 'y') || (answer == 'n')) {
+        printf("Good job, you didn't mess anything up!\n");
+    } else {
+        printf("Try it again!\n");
+    }
+
+    return 0;
+}
