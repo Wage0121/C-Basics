@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int number = 5;
+
+    // Using the ternary operator for a simple if-else
+    const char *result = (number > 0) ? "The number is positive." : "The number is not positive.";
+
+    printf("%s\n", result);
+
+    return 0;
+}
