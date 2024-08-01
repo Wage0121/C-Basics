@@ -17,7 +17,7 @@ int main() {
         case 'D':
             printf("You did alright!\n");
             break;
-        case 'F':  // Corrected the duplicate 'D' case and added 'F' case for failure
+        case 'F':  
             printf("You Failed!\n");
             break;
         default:
