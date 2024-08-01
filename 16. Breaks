@@ -1,0 +1,18 @@
+#include <stdio.h>  // Include stdio.h for printf function
+
+int main() {
+    int i;
+
+    // Loop from 0 to 9
+    for (i = 0; i < 10; i++) {
+        // When i hits 5, exit the loop
+        if (i == 5) {
+            printf("Breaking out of the loop when i is %d\n", i);
+            break;
+        }
+        printf("i is %d\n", i);
+    }
+    
+    printf("Exited loop. Final value of i is %d\n", i);
+    return 0;
+}
