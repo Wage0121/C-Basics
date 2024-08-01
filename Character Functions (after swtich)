@@ -7,11 +7,11 @@
 int main() {
     int tuna = '£';
 
-    if (isalpha(tuna)) { // Check if tuna is an alphabet letter
+    if (isalpha(tuna)) { // Check if tuna is a letter
         printf("%c is a letter\n", tuna);
     }else{
 
-        if( isdigit(tuna)){
+        if( isdigit(tuna)){ // Check if tuna is a digit
             printf("%c is a number", tuna);
         }else{
             printf("%c is a WHAT IS THAT?", tuna);
