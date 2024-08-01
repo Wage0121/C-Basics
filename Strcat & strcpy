@@ -1,0 +1,36 @@
+//strcat adds to string
+//strcopy replaces string
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+#include <stdbool.h>
+
+char password[12];
+bool hasUppercase = false;
+bool hasLowercase = false;
+bool hasSymbol = false;
+
+int main() {
+    // Characters for demonstration
+    char a = 'a';
+    char b = 'F';
+    char c = '7';
+
+    // Convert 'a' to uppercase and print it
+    printf("%c\n", toupper(a)); // toupper returns a character, use %c for single characters
+
+    // String manipulation
+    char ham[100] = "Hey";
+
+    // Concatenate "Bucky" to the end of "Hey" and print
+    strcat(ham, " Bucky");
+    printf("%s\n", ham); // Print the updated string
+
+    // Copy "Waj is awesome" into ham and print
+    strcpy(ham, "Waj is awesome");
+    printf("%s\n", ham); // Print the updated string
+
+    return 0;
+}
